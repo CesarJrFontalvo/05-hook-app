@@ -12,12 +12,14 @@ import ReactDOM from 'react-dom/client'
 // import Layout from './05-useLayoutEffect/Layout'
 // import { Memorize } from './06-memos/Memorize'
 // import { MemorizeHook } from './06-memos/MemorizeHook'
-import { CallbackHook } from './06-memos/CallbackHook'
+// import { CallbackHook } from './06-memos/CallbackHook'
+// import './08-useReducer/intro-reducer'
+import { TodoApp } from './08-useReducer/TodoApp'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
-    <CallbackHook/>
+    <TodoApp/>
   // </React.StrictMode>
   ,
 )
